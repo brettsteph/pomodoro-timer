@@ -1,0 +1,199 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.background-red {
+  background-color: rgb(250, 67, 67);
+}
+.background-light-blue {
+  background-color: rgb(50, 199, 191);
+}
+.background-blue {
+  background-color: rgb(45, 41, 252);
+}
+.site-visits {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+.pomo-card {
+  width: 500px;
+  height: 280px;
+  border-radius: 0.5rem;
+}
+.background-red-lighter {
+  background-color: rgb(248, 136, 136);
+}
+.background-light-blue-lighter {
+  background-color: rgb(135, 202, 199);
+}
+.background-blue-lighter {
+  background-color: rgb(77, 142, 216);
+}
+.pomo-controls {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+.pomo-controls button {
+  margin: 1rem .5rem;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  width: 6.5rem;
+}
+.pomo-controls button:hover {
+  /* margin-top: 1.25rem; */
+  /* margin-bottom: 1.25rem; */
+  
+}
+.pomo-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pomo-timer h1 {
+  margin: 0.2rem;
+  padding: 0;
+  font-size: 6rem;
+}
+.pomo-button-wrapper {
+  /* background-color: rgb(199, 147, 248); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+}
+.pomo-timer button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: white;
+  text-transform: uppercase;
+  color: red;
+  height: 3.25rem;
+  width: 6.5rem;
+  font-size: 1.10rem;
+  font-weight: bolder;
+  margin-top: 0.85rem;
+}
+button.btn-color-25 {
+  border-color: rgb(250, 67, 67);
+}
+button.btn-color-5 {
+  border-color: rgb(50, 199, 191);
+}
+button.btn-color-15 {
+  border-color: rgb(45, 41, 252);
+}
+button.up {
+  box-shadow: rgb(190, 190, 190) 0rem 0.35rem 0rem;  
+}
+button.down {
+  margin-top: 1rem;
+}
+button.hidden {
+  display: none;
+}
+
+/* TODOS */
+.todos-wrapper {
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: rgb(236, 250, 249); */
+  width: 500px;
+  height: 280px;
+  border-radius: 0.25rem;
+}
+.todos-wrapper p {
+  top: 1rem;
+  text-align: center;
+}
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  width: 400px;
+}
+.wrapper {
+  display: flex;
+}
+.wrapper input[type="text"] {
+  flex: 1 1 auto;
+  padding: 0.75rem;
+  margin-right: 0.25rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+.wrapper button {
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  width: 5rem;
+  text-transform: uppercase;
+}
+ul.todo-items {
+  list-style: none;
+  padding: 2px;
+  overflow: auto;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+li.todo {
+  background-color: rgb(252, 252, 245);
+  color: #2d2d2d;
+  margin-bottom: 2px;
+  /* flex-shrink: 0;   */
+}
+.todo > div {
+  display: inline-block;
+  padding: 1rem;
+}
+.todo .todo-text {
+  width: max-content()
+}
+.todo .unchecked {
+  display: none;
+}
+.todo .checked {
+  color: green;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.todo .todo-delete {
+  background-color: red;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
